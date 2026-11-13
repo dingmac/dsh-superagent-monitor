@@ -1,0 +1,12 @@
+# superagent-monitor bundle patch: a manager page for a standalone dsh-superagent
+# instance. It reads the service, its launchd job, the management API, and logs;
+# explicit same-origin POST actions start/stop/restart the service through the
+# repository control script and sync dashboard plugins into the superagent profile.
+# Its third tab is the desktop main entry: a conversation route that relays to the
+# superagent desktop Source and aggregates Feishu and GitHub feedback.
+#
+# The row id differs from the package name so the plugin row reads as two facts:
+# "superagent-monitor" here, "@local/dsh-superagent-monitor" as the module.
+- insert:
+    - id: superagent-monitor
+      name: '@local/dsh-superagent-monitor'

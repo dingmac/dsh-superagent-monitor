@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Superagent 管理",
+    "description": "查看并控制独立运行的 dsh-superagent：启停服务、同步插件，并在「Superagent 会话」页与智能体实时沟通、查看飞书与 GitHub 反馈。"
+  }
+}

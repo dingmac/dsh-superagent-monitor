@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Superagent manager",
+    "description": "Inspect and control a standalone dsh-superagent: start/stop the service, sync plugins, and talk to the agent in the Superagent chat tab with Feishu and GitHub feedback."
+  }
+}
