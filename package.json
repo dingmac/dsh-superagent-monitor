@@ -15,7 +15,9 @@
     "client.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "README.md",
+    "LICENSE"
   ],
   "dsh": {
     "bundle": {
@@ -28,5 +30,22 @@
         "@deepseek-ai/dsh-client-locale"
       ]
     }
-  }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dingmac/dsh-superagent-monitor.git"
+  },
+  "homepage": "https://github.com/dingmac/dsh-superagent-monitor#readme",
+  "bugs": {
+    "url": "https://github.com/dingmac/dsh-superagent-monitor/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-pack",
+    "superagent",
+    "launchd",
+    "desktop"
+  ]
 }
